@@ -42,8 +42,11 @@ imgTag.width = '500'
 imgTag.height = '300'
 document.write(`<img id="${imgTag.id}" src="${imgTag.src}" style="width:${imgTag.width}; height:${imgTag.height}";>`)
 
-document.getElementById('recipeId').style.marginLeft = '200px';
-document.getElementsByTagName('img').style.textAlign = 'center';
+document.getElementById('resep').style.margin = '5% auto'
+document.getElementById('resep').style.textAlign = 'center'
+document.getElementById('resep').style.width = '80%'
+document.getElementById('resep').style.background = 'salmon'
+
 
     // console.log(imgTag.id)
 
